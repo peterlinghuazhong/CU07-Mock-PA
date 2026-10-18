@@ -1,0 +1,46 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "loan_amount_rm",
+      "loan_purpose",
+      "age",
+      "late_payments",
+      "employment",
+      "region",
+      "housing",
+      "monthly_income_rm"
+    ],
+    "data": [
+      [
+        19769.0,
+        "Home",
+        29,
+        1,
+        "Self-employed",
+        "Central",
+        "Family",
+        7207.0
+      ],
+      [
+        26346.0,
+        "Home",
+        44,
+        1,
+        "Contract",
+        "South",
+        "Own",
+        2393.0
+      ],
+      [
+        37002.0,
+        "Education",
+        37,
+        0,
+        "Self-employed",
+        "Central",
+        "Own",
+        4013.0
+      ]
+    ]
+  }
+}

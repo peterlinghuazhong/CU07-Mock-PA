@@ -1,0 +1,40 @@
+artifact_path: file:C:/Users/Lenovo/Documents/MOCK_CU7/MOCK_CU7/PA/MOCK_CLASSIFICATION/STUDENT_PACK/mlruns/1/models/m-03793f7675394df8bd99ebfa2da6cbf1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+is_signature_from_type_hint: false
+mlflow_version: 3.16.1
+model_id: m-03793f7675394df8bd99ebfa2da6cbf1
+model_size_bytes: 98506
+model_uuid: m-03793f7675394df8bd99ebfa2da6cbf1
+prompts: null
+run_id: 6d2e77dada0442c38d155ca2bdc38517
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "loan_amount_rm", "required": true}, {"type":
+    "string", "name": "loan_purpose", "required": true}, {"type": "long", "name":
+    "age", "required": true}, {"type": "long", "name": "late_payments", "required":
+    true}, {"type": "string", "name": "employment", "required": true}, {"type": "string",
+    "name": "region", "required": true}, {"type": "string", "name": "housing", "required":
+    true}, {"type": "double", "name": "monthly_income_rm", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-18 13:05:00.754023'

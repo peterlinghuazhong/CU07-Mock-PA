@@ -1,0 +1,46 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "loan_amount_rm",
+      "loan_purpose",
+      "age",
+      "late_payments",
+      "employment",
+      "region",
+      "housing",
+      "monthly_income_rm"
+    ],
+    "data": [
+      [
+        32627.0,
+        "Education",
+        43,
+        0,
+        "Salaried",
+        "North",
+        "Rent",
+        3759.0
+      ],
+      [
+        20226.0,
+        "Home",
+        27,
+        1,
+        "Salaried",
+        "Central",
+        "Family",
+        6596.0
+      ],
+      [
+        13874.0,
+        "Education",
+        65,
+        1,
+        "Salaried",
+        "Central",
+        "Family",
+        3145.0
+      ]
+    ]
+  }
+}
